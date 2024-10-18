@@ -3,6 +3,8 @@
 
 まな板modを統合版で再現しました
 
+クラフターズコロニーのサイトは[こちら](https://minecraft-mcworld.com/97668/)
+
 # 使い方
 紹介動画は[こちら](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)
 
