@@ -1,0 +1,25 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "まな板ブロックアドオン ver1.1.1",
+		"description": "まな板MODにあるまな板ブロックを再現しました。",
+		"min_engine_version": [1, 20, 0],
+		"uuid": "d7fd9ef2-d428-4660-93c3-77bd20bfbe1d",
+		"version": [1, 1, 1]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "9e963bae-bf1b-4a66-b7d1-d0c51019b59d",
+			"entry": "scripts/main.js",
+			"version": [1, 1, 1]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.14.0"
+		}
+	]
+}
