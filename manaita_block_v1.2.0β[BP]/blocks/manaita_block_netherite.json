@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "manaita:block_netherite",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:collision_box": true,
+            "minecraft:display_name": "まな板ブロック[ネザライト製]",
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "down": {
+                    "texture": "manaita_block_netherite_down"
+                },
+                "up": {
+                    "texture": "manaita_block_netherite_up"
+                },
+                "*": {
+                    "texture": "manaita_block_netherite_side"
+                }
+            },
+            "minecraft:destructible_by_mining":{
+                "seconds_to_destroy": 1
+            },
+            "minecraft:map_color": "#584e54",
+            "minecraft:custom_components": ["manaita:block"],
+            "minecraft:entity_fall_on": {
+                "min_fall_distance": 0
+            }
+        }
+    }
+}
