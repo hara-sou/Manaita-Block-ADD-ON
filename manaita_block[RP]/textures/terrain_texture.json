@@ -1,0 +1,62 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "まな板 テクスチャ",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"manaita_block_wood_down": {
+			"textures": "textures/items/blocks/wood/manaita_block_wood_down.png"
+		},
+		"manaita_block_wood_up": {
+			"textures": "textures/items/blocks/wood/manaita_block_wood_up.png"
+		},
+		"manaita_block_wood_side": {
+			"textures": "textures/items/blocks/wood/manaita_block_wood_side.png"
+		},
+		"manaita_block_stone_down": {
+			"textures": "textures/items/blocks/stone/manaita_block_stone_down.png"
+		},
+		"manaita_block_stone_up": {
+			"textures": "textures/items/blocks/stone/manaita_block_stone_up.png"
+		},
+		"manaita_block_stone_side": {
+			"textures": "textures/items/blocks/stone/manaita_block_stone_side.png"
+		},
+		"manaita_block_iron_down": {
+			"textures": "textures/items/blocks/iron/manaita_block_iron_down.png"
+		},
+		"manaita_block_iron_up": {
+			"textures": "textures/items/blocks/iron/manaita_block_iron_up.png"
+		},
+		"manaita_block_iron_side": {
+			"textures": "textures/items/blocks/iron/manaita_block_iron_side.png"
+		},
+		"manaita_block_gold_down": {
+			"textures": "textures/items/blocks/gold/manaita_block_gold_down.png"
+		},
+		"manaita_block_gold_up": {
+			"textures": "textures/items/blocks/gold/manaita_block_gold_up.png"
+		},
+		"manaita_block_gold_side": {
+			"textures": "textures/items/blocks/gold/manaita_block_gold_side.png"
+		},
+		"manaita_block_diamond_down": {
+			"textures": "textures/items/blocks/diamond/manaita_block_diamond_down.png"
+		},
+		"manaita_block_diamond_up": {
+			"textures": "textures/items/blocks/diamond/manaita_block_diamond_up.png"
+		},
+		"manaita_block_diamond_side": {
+			"textures": "textures/items/blocks/diamond/manaita_block_diamond_side.png"
+		},
+		"manaita_block_netherite_down": {
+			"textures": "textures/items/blocks/netherite/manaita_block_netherite_down.png"
+		},
+		"manaita_block_netherite_up": {
+			"textures": "textures/items/blocks/netherite/manaita_block_netherite_up.png"
+		},
+		"manaita_block_netherite_side": {
+			"textures": "textures/items/blocks/netherite/manaita_block_netherite_side.png"
+		}
+	}
+}

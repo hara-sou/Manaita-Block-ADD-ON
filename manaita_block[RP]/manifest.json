@@ -1,0 +1,17 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "まな板ブロックアドオン テクスチャ",
+		"description": "",
+		"min_engine_version": [1, 21, 40],
+		"uuid": "9a518044-3b09-4af4-b2ab-b552698ad4c2",
+		"version": [1, 2, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "bb378134-3786-4c71-93a3-5e1415705637",
+			"version": [1, 2, 0]
+		}
+	]
+}
