@@ -2,7 +2,7 @@
 ![まな板ブロックアドオン サムネイル](https://github.com/user-attachments/assets/f4278bb0-d373-43c2-b5d1-121d57f31833)
 
 
-まな板modを統合版で再現しました
+まな板modを統合版でブロックのみ再現しました
 
 クラフターズコロニーのサイトは[こちら](https://minecraft-mcworld.com/104208/)
 # 使い方
