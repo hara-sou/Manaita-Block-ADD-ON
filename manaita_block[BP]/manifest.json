@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "まな板ブロックアドオン+ ver1.0.0",
+		"name": "まな板ブロックアドオン ver2.0.0",
 		"description": "まな板MODにあるまな板ブロックを再現しました。",
 		"min_engine_version": [1, 21, 70],
 		"uuid": "d7fd9ef2-d428-4660-93c3-77bd20bfbe1d",
