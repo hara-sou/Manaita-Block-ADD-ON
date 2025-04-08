@@ -1,0 +1,47 @@
+{
+    "format_version":"1.21.70",
+    "minecraft:item":{
+        "description":{
+            "identifier":"manaita:shovel",
+            "menu_category":{
+                "category":"equipment",
+                "group":"minecraft:itemGroup.name.shovel"
+            }
+        },
+        "components":{
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand":{
+                "value": false
+            },
+            "minecraft:damage": {
+                "value": 32767
+            },
+            "minecraft:enchantable": {
+                "slot": "shovel",
+                "value": 32767
+            },
+            "minecraft:display_name":{
+                "value":"まな板のシャベル"
+            },
+            "minecraft:hand_equipped":{
+                "value": true
+            },
+            "minecraft:icon":{
+                "textures":{
+                    "default":"manaita_shovel"
+                }
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "query.any_tag( 'dirt','grass','sand','snow' )"
+                        },
+                        "speed": 32767
+                    }
+                ]
+            }
+        }
+    }
+}

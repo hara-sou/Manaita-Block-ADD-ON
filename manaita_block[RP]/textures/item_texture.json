@@ -1,0 +1,34 @@
+{
+    "resource_pack_name":"まな板アドオン テクスチャ",
+    "texture_name":"atlas.items",
+    "texture_data":{
+        "manaita_sword":{
+            "textures":"textures/items/manaita_sword"
+        },
+
+        "manaita_helmet":{
+            "textures":"textures/items/manaita_helmet"
+        },
+        "manaita_chestplate":{
+            "textures":"textures/items/manaita_chestplate"
+        },
+        "manaita_leggings":{
+            "textures":"textures/items/manaita_leggings"
+        },
+        "manaita_boots":{
+            "textures":"textures/items/manaita_boots"
+        },
+        "manaita_material":{
+            "textures":"textures/items/manaita_material"
+        },
+        "manaita_axe":{
+            "textures":"textures/items/manaita_axe"
+        },
+        "manaita_pickaxe":{
+            "textures":"textures/items/manaita_pickaxe"
+        },
+        "manaita_shovel":{
+            "textures":"textures/items/manaita_shovel"
+        }
+    }
+}

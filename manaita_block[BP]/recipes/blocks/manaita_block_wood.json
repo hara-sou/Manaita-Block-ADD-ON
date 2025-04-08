@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.6",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "manaita:block_wood"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:crafting_table"
+            }
+        },
+        "result": {
+            "item": "manaita:block_wood",
+            "count": 1
+        }
+    }
+}

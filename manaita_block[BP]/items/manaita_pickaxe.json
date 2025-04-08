@@ -1,0 +1,50 @@
+{
+    "format_version":"1.21.70",
+    "minecraft:item":{
+        "description":{
+            "identifier":"manaita:pickaxe",
+            "menu_category":{
+                "category":"equipment",
+                "group":"minecraft:itemGroup.name.pickaxe"
+            }
+        },
+        "components":{
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand":{
+                "value": false
+            },
+            "minecraft:damage": {
+                "value": 32767
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 32767
+            },
+            "minecraft:display_name":{
+                "value":"まな板のツルハシ"
+            },
+            "minecraft:hand_equipped":{
+                "value": true
+            },
+            "minecraft:icon":{
+                "textures":{
+                    "default":"manaita_pickaxe"
+                }
+            },
+            "minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"speed": 32767,
+						"block": {
+                            "tags": "query.any_tag( 'stone', 'metal' )"
+						}
+					},
+                    {
+                        "block":"minecraft:deepslate",
+                        "speed": 32767
+                    }
+				]
+			}
+        }
+    }
+}
