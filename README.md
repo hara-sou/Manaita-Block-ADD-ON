@@ -5,5 +5,8 @@
 まな板modを統合版でブロックのみ再現しました
 
 クラフターズコロニーのサイトは[こちら](https://minecraft-mcworld.com/104208/)
+
+バグ等があれば[Discord](https://discord.gg/xXx6Jn9bdZ)に報告をお願いします。
+
 # 使い方
 紹介動画は[こちら](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)
