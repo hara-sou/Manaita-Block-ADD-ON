@@ -3,7 +3,7 @@
 	"header": {
 		"name": "まな板ブロックアドオン ver2.0.0",
 		"description": "まな板MODにあるまな板ブロックを再現しました。",
-		"min_engine_version": [1, 21, 70],
+		"min_engine_version": [1, 21, 80],
 		"uuid": "d7fd9ef2-d428-4660-93c3-77bd20bfbe1d",
 		"version": [2, 0, 0]
 	},
@@ -23,7 +23,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.18.0"
+			"version": "1.19.0"
 		}
 	]
 }
