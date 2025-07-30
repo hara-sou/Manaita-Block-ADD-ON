@@ -1,1 +1,13 @@
+item.manaita:axe.name=まな板の斧
+item.manaita:material.name=マナ
+item.manaita:pickaxe.name=まな板のツルハシ
+item.manaita:shovel.name=まな板のシャベル
+
+tile.manaita:block_wood.name=まな板ブロック 木製
+tile.manaita:block_stone.name=まな板ブロック 石製
+tile.manaita:block_iron.name=まな板ブロック 鉄製
+tile.manaita:block_gold.name=まな板ブロック 金製
+tile.manaita:block_diamond.name=まな板ブロック ダイヤモンド製
+tile.manaita:block_netherite.name=まな板ブロック ネザライト製
+
 manaita:itemgroup.name.block=まな板ブロック
