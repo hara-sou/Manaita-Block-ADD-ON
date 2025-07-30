@@ -21,7 +21,7 @@
                 "value": 32767
             },
             "minecraft:display_name":{
-                "value":"まな板のシャベル"
+                "value":"item.manaita:shovel.name"
             },
             "minecraft:hand_equipped":{
                 "value": true

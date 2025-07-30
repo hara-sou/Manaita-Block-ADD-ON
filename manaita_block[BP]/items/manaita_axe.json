@@ -21,7 +21,7 @@
                 "value": 32767
             },
             "minecraft:display_name":{
-                "value":"まな板の斧"
+                "value":"item.manaita:axe.name"
             },
             "minecraft:hand_equipped":{
                 "value": true

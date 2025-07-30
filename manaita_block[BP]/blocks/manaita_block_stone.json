@@ -9,7 +9,7 @@
         },
         "components": {
             "minecraft:collision_box": true,
-            "minecraft:display_name": "まな板ブロック[石製]",
+            "minecraft:display_name": "tile.manaita:block_stone.name",
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
                 "down": {
