@@ -33,15 +33,12 @@
 					{
 						"speed": 255,
 						"block": {
-                            "tags": "query.any_tag( 'stone', 'metal', 'diamond_pick_diggable' )"
+                            "tags": "query.any_tag( 'minecraft:is_pickaxe_item_destructible' )"
 						}
-					},
-                    {
-                        "block":"minecraft:deepslate",
-                        "speed": 255
-                    }
+					}
 				]
 			}
         }
     }
+
 }
