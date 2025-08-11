@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.6",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hraddons:manaita_item_paxel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CAD",
+            " B",
+            " B"
+        ],
+        "key": {
+            "A": {
+                "item": "hraddons:manaita_item_pickaxe"
+            },
+            "B": {
+                "item": "stick"
+            },
+            "C": {
+                "item": "hraddons:manaita_item_axe"
+            },
+            "D": {
+                "item": "hraddons:manaita_item_shovel"
+            }
+        },
+        "result": {
+            "item": "hraddons:manaita_item_paxel",
+            "count": 1
+        },
+        "priority": 2
+    }
+}
