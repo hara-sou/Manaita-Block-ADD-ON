@@ -33,7 +33,7 @@
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "query.any_tag( 'dirt','grass','sand','snow' )"
+                            "tags": "query.any_tag( 'minecraft:is_shovel_item_destructible' )"
                         },
                         "speed": 255
                     }
@@ -41,4 +41,5 @@
             }
         }
     }
+
 }
