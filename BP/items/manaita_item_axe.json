@@ -33,7 +33,7 @@
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "q.any_tag('log','trapdoors','wood')"
+                            "tags": "q.any_tag('minecraft:is_axe_item_destructible')"
                         },
                         "speed": 255
                     }
@@ -41,4 +41,5 @@
             }
         }
     }
+
 }
