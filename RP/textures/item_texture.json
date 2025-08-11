@@ -13,6 +13,9 @@
         },
         "manaita_item_shovel": {
             "textures": "textures/items/manaita_item_shovel"
+        },
+        "manaita_item_paxel": {
+            "textures": "textures/items/manaita_item_paxel"
         }
     }
 }
