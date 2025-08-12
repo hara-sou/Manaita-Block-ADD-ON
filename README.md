@@ -9,7 +9,9 @@
 バグ等があれば[Discord](https://discord.gg/xXx6Jn9bdZ)に報告をお願いします。
 
 # 使い方
-紹介動画は[こちら](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)
+[紹介動画](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)
+
+[Wiki](https://github.com/hara-sou/Manaita-Block-ADD-ON/wiki)
 
 ## 対応バージョン
 |アドオンバージョン|マイクラバージョン|
