@@ -1,4 +1,3 @@
-// scripts/blocks.js
 import { ItemStack, system } from "@minecraft/server";
 import { incBlk } from "./incBlk";
 import { noIncItems } from "./noIncItems";
@@ -28,3 +27,4 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
         }
     });
 });
+
