@@ -1,5 +1,5 @@
 pack.name=まな板ブロックアドオン resource_pack
-pack.description=制作:はらそう version 3.0.0
+pack.description=制作:はらそう version 3.1.0 alpha
 
 tile.hraddons:manaita_block_wooden.name=まな板ブロック 木製
 tile.hraddons:manaita_block_stone.name=まな板ブロック 石製
@@ -10,8 +10,15 @@ tile.hraddons:manaita_block_netherite.name=まな板ブロック ネザライト
 
 item.hraddons:manaita_item_axe=まな板の斧
 item.hraddons:manaita_item_material=マナ
+item.hraddons:manaita_item_xp=まな板のXPカード
 item.hraddons:manaita_item_pickaxe=まな板のツルハシ
 item.hraddons:manaita_item_shovel=まな板のシャベル
 item.hraddons:manaita_item_paxel=まな板のパクセル
+item.hraddons:manaita_item_sword=まな板の剣
+
+item.hraddons:manaita_item_chest=まな板のチェストプレート
+item.hraddons:manaita_item_leggings=まな板のレギンス
+item.hraddons:manaita_item_helmet=まな板のヘルメット
+item.hraddons:manaita_item_boots=まな板のブーツ
 
 hraddons:itemGroup.manaita_block=まな板ブロック
