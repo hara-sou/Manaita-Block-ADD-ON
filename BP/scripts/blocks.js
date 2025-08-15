@@ -1,6 +1,5 @@
 import { ItemStack, system } from "@minecraft/server";
-import { incBlk } from "./incBlk";
-import { noIncItems } from "./noIncItems";
+import { incBlk, noIncItems } from "./const";
 
 system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
     if (!blockComponentRegistry) {
@@ -20,11 +19,22 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
             const { itemStack } = entity.getComponent("minecraft:item");
             if (!itemStack || noIncItems.includes(itemStack.typeId)) return;
 
-            entity.dimension.spawnItem(
-                new ItemStack(itemStack.typeId, itemStack.amount * incBlk[block.typeId]),
-                entity.location
-            );
+            const totalAmount = itemStack.amount * incBlk[block.typeId];
+            const location = entity.location;
+            const maxStackSize = itemStack.getMaxStackSize?.() ?? 64;
+
+            let remaining = totalAmount;
+            while (remaining > 0) {
+                const spawnAmount = Math.min(remaining, maxStackSize);
+
+                for (let i = 0; i < spawnAmount; i++) {
+                    const cloned = itemStack.clone();
+                    cloned.amount = 1;
+                    entity.dimension.spawnItem(cloned, location);
+                }
+
+                remaining -= spawnAmount;
+            }
         }
     });
 });
-
