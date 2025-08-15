@@ -2,11 +2,17 @@
     "resource_pack_name":"まな板ブロック",
     "texture_name":"atlas.items",
     "texture_data":{
+        "manaita_item_sword": {
+            "textures": "textures/items/manaita_item_sword"
+        },
         "manaita_item_axe": {
             "textures": "textures/items/manaita_item_axe"
         },
         "manaita_item_material": {
             "textures": "textures/items/manaita_item_material"
+        },
+        "manaita_item_xp": {
+            "textures":"textures/items/manaita_item_xp"
         },
         "manaita_item_pickaxe": {
             "textures": "textures/items/manaita_item_pickaxe"
@@ -16,6 +22,19 @@
         },
         "manaita_item_paxel": {
             "textures": "textures/items/manaita_item_paxel"
+        },
+
+        "manaita_item_chest": {
+            "textures":"textures/items/manaita_item_chestplate"
+        },
+        "manaita_item_leggings": {
+            "textures":"textures/items/manaita_item_leggings"
+        },
+        "manaita_item_helmet": {
+            "textures":"textures/items/manaita_item_helmet"
+        },
+        "manaita_item_boots": {
+            "textures":"textures/items/manaita_item_boots"
         }
     }
 }
