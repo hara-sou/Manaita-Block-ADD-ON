@@ -1,5 +1,5 @@
 pack.name=まな板ブロックアドオン resource_pack
-pack.description=制作:はらそう version 3.1.0 alpha
+pack.description=制作:はらそう version 3.1.1
 
 tile.hraddons:manaita_block_wooden.name=まな板ブロック 木製
 tile.hraddons:manaita_block_stone.name=まな板ブロック 石製
@@ -22,3 +22,4 @@ item.hraddons:manaita_item_helmet=まな板のヘルメット
 item.hraddons:manaita_item_boots=まな板のブーツ
 
 hraddons:itemGroup.manaita_block=まな板ブロック
+
