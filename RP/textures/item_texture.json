@@ -2,39 +2,44 @@
     "resource_pack_name":"まな板ブロック",
     "texture_name":"atlas.items",
     "texture_data":{
-        "manaita_item_sword": {
-            "textures": "textures/items/manaita_item_sword"
+        "manaita_boots": {
+            "textures":"textures/items/armor/manaita_boots"
         },
-        "manaita_item_axe": {
-            "textures": "textures/items/manaita_item_axe"
+        "manaita_chest": {
+            "textures":"textures/items/armor/manaita_chestplate"
         },
-        "manaita_item_material": {
-            "textures": "textures/items/manaita_item_material"
+        "manaita_helmet": {
+            "textures":"textures/items/armor/manaita_helmet"
         },
-        "manaita_item_xp": {
-            "textures":"textures/items/manaita_item_xp"
-        },
-        "manaita_item_pickaxe": {
-            "textures": "textures/items/manaita_item_pickaxe"
-        },
-        "manaita_item_shovel": {
-            "textures": "textures/items/manaita_item_shovel"
-        },
-        "manaita_item_paxel": {
-            "textures": "textures/items/manaita_item_paxel"
+        "manaita_leggings": {
+            "textures":"textures/items/armor/manaita_leggings"
         },
 
-        "manaita_item_chest": {
-            "textures":"textures/items/manaita_item_chestplate"
+
+        "manaita_axe": {
+            "textures": "textures/items/tools/manaita_axe"
         },
-        "manaita_item_leggings": {
-            "textures":"textures/items/manaita_item_leggings"
+        "manaita_paxel": {
+            "textures": "textures/items/tools/manaita_paxel"
         },
-        "manaita_item_helmet": {
-            "textures":"textures/items/manaita_item_helmet"
+        "manaita_pickaxe": {
+            "textures": "textures/items/tools/manaita_pickaxe"
         },
-        "manaita_item_boots": {
-            "textures":"textures/items/manaita_item_boots"
+        "manaita_shovel": {
+            "textures": "textures/items/tools/manaita_shovel"
+        },
+
+
+        "manaita_sword": {
+            "textures": "textures/items/weapons/manaita_sword"
+        },
+
+
+        "manaita_material": {
+            "textures": "textures/items/manaita_material"
+        },
+        "manaita_xp_card": {
+            "textures":"textures/items/manaita_xp_card"
         }
     }
 }
