@@ -2,25 +2,25 @@
     "format_version": "1.20.6",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "hraddons:manaita_material"
+            "identifier": "hraddons:manaita_xp_card"
         },
         "tags": ["crafting_table"],
         "pattern": [
             "AAA",
-            "b b",
+            "ABA",
             "AAA"
         ],
         "key": {
             "A": {
-                "item": "minecraft:diamond_block"
+                "item": "hraddons:manaita_material"
             },
-            "b": {
-                "item": "minecraft:crafting_table"
+            "B": {
+                "item": "minecraft:experience_bottle"
             }
         },
         "result": {
-            "item": "hraddons:manaita_material",
-            "count": 4
+            "item": "hraddons:manaita_xp_card",
+            "count": 1
         }
     }
 }

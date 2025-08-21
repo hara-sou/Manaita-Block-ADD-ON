@@ -1,3 +1,2 @@
-import "./incBlk.js";
-import "./noIncItems.js";
 import "./blocks.js";
+import "./const.js";
