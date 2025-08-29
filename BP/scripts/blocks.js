@@ -20,8 +20,12 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
             if (!itemStack || noIncItems.includes(itemStack.typeId)) return;
 
             const totalAmount = itemStack.amount * incBlk[block.typeId];
-            const location = entity.location;
             const maxStackSize = itemStack.getMaxStackSize?.() ?? 64;
+            const spawnLocation = {
+                x: block.location.x + 0.5,
+                y: block.location.y + 0.5,
+                z: block.location.z + 0.5
+            };
 
             let remaining = totalAmount;
             while (remaining > 0) {
@@ -30,7 +34,7 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
                 for (let i = 0; i < spawnAmount; i++) {
                     const cloned = itemStack.clone();
                     cloned.amount = 1;
-                    entity.dimension.spawnItem(cloned, location);
+                    entity.dimension.spawnItem(cloned, spawnLocation);
                 }
 
                 remaining -= spawnAmount;
