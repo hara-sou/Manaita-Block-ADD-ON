@@ -21,6 +21,7 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 
             const totalAmount = itemStack.amount * incBlk[block.typeId];
             const maxStackSize = itemStack.getMaxStackSize?.() ?? 64;
+
             const spawnLocation = {
                 x: block.location.x + 0.5,
                 y: block.location.y + 0.5,
@@ -38,6 +39,12 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
                 }
 
                 remaining -= spawnAmount;
+            }
+
+            try {
+                entity.triggerEvent("despawn");
+            } catch {
+                entity.remove();
             }
         }
     });
