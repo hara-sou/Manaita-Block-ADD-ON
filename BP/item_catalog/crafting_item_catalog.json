@@ -16,6 +16,7 @@
                             "hraddons:manaita_block_iron",
                             "hraddons:manaita_block_golden",
                             "hraddons:manaita_block_diamond",
+                            "hraddons:manaita_block_emerald",
                             "hraddons:manaita_block_netherite"
                         ]
                     }
@@ -23,4 +24,5 @@
             }
         ]
     }
+
 }
