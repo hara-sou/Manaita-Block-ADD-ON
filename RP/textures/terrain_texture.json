@@ -52,6 +52,16 @@
             "textures": "textures/blocks/diamond/manaita_block_diamond_side"
         },
 
+        "hraddons:manaita_block_emerald_down": {
+            "textures": "textures/blocks/emerald/manaita_block_emerald_down"
+        },
+        "hraddons:manaita_block_emerald_up": {
+            "textures": "textures/blocks/emerald/manaita_block_emerald_up"
+        },
+        "hraddons:manaita_block_emerald_side": {
+            "textures": "textures/blocks/emerald/manaita_block_emerald_side"
+        },
+
         "hraddons:manaita_block_netherite_down": {
             "textures": "textures/blocks/netherite/manaita_block_netherite_down"
         },
