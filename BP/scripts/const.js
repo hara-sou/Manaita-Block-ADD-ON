@@ -4,7 +4,8 @@ export const incBlk = {
     "hraddons:manaita_block_iron": 8,
     "hraddons:manaita_block_golden": 16,
     "hraddons:manaita_block_diamond": 32,
-    "hraddons:manaita_block_netherite": 64
+    "hraddons:manaita_block_emerald": 64,
+    "hraddons:manaita_block_netherite": 128
     // incBlk = Increased number of blocks の短略化
     // ブロックによって増えるアイテムの数
 };
@@ -21,4 +22,5 @@ export const noIncItems = [
     // noIncItems = Items that cannot be increased の短略化
     // 増やせないアイテムを管理する
     // リスト内のアイテムを検知すると止まる
+
 ];
