@@ -15,7 +15,7 @@
                 "item": "minecraft:netherite_block"
             },
             "B": {
-                "item": "hraddons:manaita_block_diamond"
+                "item": "hraddons:manaita_block_emerald"
             }
         },
         "result": {
@@ -23,4 +23,5 @@
             "count": 1
         }
     }
+
 }
