@@ -1,4 +1,4 @@
-pack.name=まな板ブロックアドオン v3.2.0
+pack.name=まな板ブロックアドオン [RP]v3.2.0
 pack.description=制作:はらそう
 
 
@@ -31,3 +31,4 @@ item.hraddons:manaita_xp_card=まな板のXPカード
 
 
 hraddons:itemGroup.manaita_block=まな板ブロック
+
