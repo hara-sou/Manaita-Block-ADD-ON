@@ -8,11 +8,11 @@ world.afterEvents.entityHurt.subscribe(ev => {
   const equippable = player.getComponent("minecraft:equippable");
   const chest = equippable.getEquipment(EquipmentSlot.Chest);
 
-  // ネザライトチェストプレートを着ていたらノックバック無効化
-  if (chest && chest.typeId === "hraddons:manaita_chest") {
+  if (chest && chest.typeId === "hraddons:manaita_chest_knockback") {
     player.clearVelocity();
   }
 });
+
 
 
 
