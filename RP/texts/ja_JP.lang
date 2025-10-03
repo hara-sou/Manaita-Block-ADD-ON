@@ -15,6 +15,7 @@ item.hraddons:manaita_boots=まな板のブーツ
 item.hraddons:manaita_chest=まな板のチェストプレート
 item.hraddons:manaita_helmet=まな板のヘルメット
 item.hraddons:manaita_leggings=まな板のレギンス
+item.hraddons:manaita_chest_knockback=まな板のチェストプレート ノックバック無効形態
 
 item.hraddons:manaita_axe=まな板の斧
 item.hraddons:manaita_paxel=まな板のパクセル
@@ -27,8 +28,10 @@ item.hraddons:manaita_sword=まな板の剣
 
 item.hraddons:manaita_material=マナ
 item.hraddons:manaita_xp_card=まな板のXPカード
+item.hraddons:manaita_upgrade_knockback_template=ノックバック無効化
 
 
 
 hraddons:itemGroup.manaita_block=まな板ブロック
+
 
