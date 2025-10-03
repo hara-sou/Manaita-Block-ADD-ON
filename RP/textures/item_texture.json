@@ -40,6 +40,10 @@
         },
         "manaita_xp_card": {
             "textures":"textures/items/manaita_xp_card"
+        },
+        "manaita_upgrade_knockback_template": {
+            "textures":"textures/items/manaita_upgrade_knockback_template"
         }
     }
 }
+
