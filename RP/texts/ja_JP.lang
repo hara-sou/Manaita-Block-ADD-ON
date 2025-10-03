@@ -1,4 +1,4 @@
-pack.name=まな板ブロックアドオン [RP]v3.2.0
+pack.name=まな板ブロックアドオン [RP]v3.3.0
 pack.description=制作:はらそう
 
 
@@ -33,5 +33,6 @@ item.hraddons:manaita_upgrade_knockback_template=ノックバック無効化
 
 
 hraddons:itemGroup.manaita_block=まな板ブロック
+
 
 
