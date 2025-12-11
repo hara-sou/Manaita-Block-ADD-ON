@@ -7,7 +7,6 @@
 クラフターズコロニーのサイトは[こちら](https://minecraft-mcworld.com/104208/)
 
 # 詳しい使い方はコチラを確認してください
-[紹介動画](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)
-
+[紹介動画](https://youtu.be/jCF1lx97m90?si=40a5Ct4EA0hHVs19)<br>
 [Wiki](https://github.com/hara-sou/Manaita-Block-ADD-ON/wiki)
 
