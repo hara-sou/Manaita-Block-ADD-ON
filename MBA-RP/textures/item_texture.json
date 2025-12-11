@@ -44,6 +44,10 @@
         },
         "manaita_upgrade_knockback_template": {
             "textures":"textures/items/items/manaita_upgrade_knockback_template"
+        },
+
+        "manaita_click_wooden":{
+            "textures":"textures/items/items/manaita_click_wooden"
         }
     }
 }
