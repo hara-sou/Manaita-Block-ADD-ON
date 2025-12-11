@@ -12,6 +12,7 @@
 [Wiki](https://github.com/hara-sou/Manaita-Block-ADD-ON/wiki)
 
 ## 対応バージョン
+最新バージョン: v3.5.0
 |アドオンver|マイクラver|
 |---|---|
 |v3.5.0|v1.21.120～|
