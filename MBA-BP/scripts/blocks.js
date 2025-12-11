@@ -1,5 +1,5 @@
 import { ItemStack, system } from "@minecraft/server";
-import { incBlk, noIncItems } from "./const";
+import { incBlk, noIncItems } from "./config";
 
 system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
     if (!blockComponentRegistry) {
