@@ -12,6 +12,7 @@
 [Wiki](https://github.com/hara-sou/Manaita-Block-ADD-ON/wiki)
 
 ## 対応バージョン
-v1.21.90以降
-
-v1.21.120動作確認済み
+|アドオンver|マイクラver|
+|---|---|
+|v3.5.0|v1.21.120～|
+|v3.4.0|～v1.21.90|
