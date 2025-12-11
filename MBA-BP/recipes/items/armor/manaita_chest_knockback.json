@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.6",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hraddons:manaita_chest_knockback"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "",
+            "BA",
+            ""
+        ],
+        "key": {
+            "A": {
+                "item": "hraddons:manaita_chest"
+            },
+            "B": {
+                "item":"hraddons:manaita_upgrade_knockback_template"
+            }
+        },
+        "result": {
+            "item": "hraddons:manaita_chest_knockback",
+            "count": 1
+        }
+    }
+}
