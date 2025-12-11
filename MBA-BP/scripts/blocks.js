@@ -40,12 +40,7 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 
                 remaining -= spawnAmount;
             }
-
-            try {
-                entity.triggerEvent("despawn");
-            } catch {
-                entity.remove();
-            }
         }
     });
+
 });
