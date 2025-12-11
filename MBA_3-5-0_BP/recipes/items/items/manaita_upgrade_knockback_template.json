@@ -1,0 +1,26 @@
+{
+    "format_version": "1.20.6",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "hraddons:manaita_upgrade_knockback_template"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " B ",
+            "BAB",
+            " B "
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:crafting_table"
+            },
+            "B": {
+                "item": "hraddons:manaita_material"
+            }
+        },
+        "result": {
+            "item": "hraddons:manaita_upgrade_knockback_template",
+            "count": 1
+        }
+    }
+}
