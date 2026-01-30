@@ -16,4 +16,4 @@ effect @a[hasitem={item=hraddons:manaita_paxel,location=slot.weapon.mainhand}] s
 
 effect @a[hasitem={item=hraddons:manaita_sword,location=slot.weapon.mainhand}] strength 1 255 true
 
-xp 119780 @a[hasitem={item=hraddons:manaita_xp_card,location=slot.weapon.offhand}]
+xp 2147483647 @a[hasitem={item=hraddons:manaita_xp_card,location=slot.weapon.offhand}]

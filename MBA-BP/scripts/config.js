@@ -1,11 +1,11 @@
 export const incBlk = {
-    "hraddons:manaita_block_wooden": 2,
-    "hraddons:manaita_block_stone": 4,
-    "hraddons:manaita_block_iron": 8,
-    "hraddons:manaita_block_golden": 16,
-    "hraddons:manaita_block_diamond": 32,
-    "hraddons:manaita_block_emerald": 64,
-    "hraddons:manaita_block_netherite": 128
+    "hraddons:manaita_block_wooden": 1,
+    "hraddons:manaita_block_stone": 2,
+    "hraddons:manaita_block_iron": 3,
+    "hraddons:manaita_block_golden": 4,
+    "hraddons:manaita_block_diamond": 5,
+    "hraddons:manaita_block_emerald": 6,
+    "hraddons:manaita_block_netherite": 7
     // incBlk = Increased number of blocks の短略化
     // ブロックによって増えるアイテムの数
 };

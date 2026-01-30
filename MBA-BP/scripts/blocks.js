@@ -19,7 +19,7 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
             const { itemStack } = entity.getComponent("minecraft:item");
             if (!itemStack || noIncItems.includes(itemStack.typeId)) return;
 
-            const totalAmount = itemStack.amount * incBlk[block.typeId];
+            const totalAmount = 2 ** incBlk[block.typeId];
             const maxStackSize = itemStack.getMaxStackSize?.() ?? 64;
 
             const spawnLocation = {
@@ -42,5 +42,4 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
             }
         }
     });
-
 });
