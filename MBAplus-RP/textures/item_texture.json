@@ -3,19 +3,19 @@
     "texture_name":"atlas.items",
     "texture_data":{
         "manaita_boots": {
-            "textures":"textures/items/armor/manaita_boots"
+            "textures":"textures/items/equipment/armor/manaita_boots"
         },
         "manaita_chest": {
-            "textures":"textures/items/armor/manaita_chestplate"
+            "textures":"textures/items/equipment/armor/manaita_chestplate"
         },
         "manaita_chest_knockback": {
-            "textures":"textures/items/armor/manaita_chestplate+"
+            "textures":"textures/items/equipment/armor/manaita_chestplate+"
         },
         "manaita_helmet": {
-            "textures":"textures/items/armor/manaita_helmet"
+            "textures":"textures/items/equipment/armor/manaita_helmet"
         },
         "manaita_leggings": {
-            "textures":"textures/items/armor/manaita_leggings"
+            "textures":"textures/items/equipment/armor/manaita_leggings"
         },
 
 
