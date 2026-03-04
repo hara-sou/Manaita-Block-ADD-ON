@@ -7,7 +7,7 @@ function show_main_form(player){
     form.title("まな板ブロックアドオン+ 取扱説明書");
     form.button("クリックまな板・まな板ブロック", "textures/items/items/manaita_click_wooden");
     form.button("まな板ツール", "textures/items/equipment/manaita_axe");
-    form.button("まな板防具", "textures/items/armor/manaita_helmet");
+    form.button("まな板防具", "textures/items/equipment/armor/manaita_helmet");
     form.button("追加アイテム", "textures/items/items/manaita_material");
     form.button("増やせないアイテムリスト","textures/blocks/barrier");
     form.button("アドオン情報","pack_icon");
